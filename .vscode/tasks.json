@@ -6,7 +6,7 @@
 			"label": "Run Salary Predictor API",
 			"command": "python app.py",
 			"group": "build",
-			"isBackground": false
+			"isBackground": false/,
 		}
 	]
 }
