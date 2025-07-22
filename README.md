@@ -1,8 +1,6 @@
-# 💰 Advanced Salary Prediction Web App
+# Salary Prediction
 
 <div align="center">
-  <h3>🚀 AI-Powered Salary Insights for the Modern Workforce</h3>
-  
   [![Python](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3110/)
   [![Streamlit](https://img.shields.io/badge/Streamlit-1.22.0+-red.svg)](https://streamlit.io/)
   [![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.2.2+-orange.svg)](https://scikit-learn.org/)
