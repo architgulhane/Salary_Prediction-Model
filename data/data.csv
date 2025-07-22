@@ -1,0 +1,69 @@
+#null values
+data.isna()
+	age	workclass	fnlwgt	educational-num	marital-status	occupation	relationship	race	gender	capital-gain	capital-loss	hours-per-week	native-country	income
+0	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+1	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+2	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+3	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+4	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+...	...	...	...	...	...	...	...	...	...	...	...	...	...	...
+48837	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+48838	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+48839	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+48840	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+48841	False	False	False	False	False	False	False	False	False	False	False	False	False	False
+47619 rows × 14 columns
+
+
+data.isna().sum
+<bound method DataFrame.sum of          age  workclass  fnlwgt  educational-num  marital-status  occupation  \
+0      False      False   False            False           False       False   
+1      False      False   False            False           False       False   
+2      False      False   False            False           False       False   
+3      False      False   False            False           False       False   
+4      False      False   False            False           False       False   
+...      ...        ...     ...              ...             ...         ...   
+48837  False      False   False            False           False       False   
+48838  False      False   False            False           False       False   
+48839  False      False   False            False           False       False   
+48840  False      False   False            False           False       False   
+48841  False      False   False            False           False       False   
+
+       relationship   race  gender  capital-gain  capital-loss  \
+0             False  False   False         False         False   
+1             False  False   False         False         False   
+2             False  False   False         False         False   
+3             False  False   False         False         False   
+4             False  False   False         False         False   
+...             ...    ...     ...           ...           ...   
+48837         False  False   False         False         False   
+48838         False  False   False         False         False   
+48839         False  False   False         False         False   
+48840         False  False   False         False         False   
+48841         False  False   False         False         False   
+...
+48839           False           False   False  
+48840           False           False   False  
+48841           False           False   False  
+
+[47619 rows x 14 columns]>
+
+
+print(data.occupation.value_counts())
+occupation
+9     6129
+3     6024
+2     5990
+0     5559
+11    5442
+7     4715
+6     2869
+14    2639
+13    2294
+5     1975
+12    1444
+4     1353
+10     973
+8      198
+1       15
+Name: count, dtype: int64
