@@ -13,7 +13,7 @@
       "extensions": [
         "ms-python.python",
         "ms-python.vscode-pylance"
-                  "vscode": "streamlit run app.py --server.enableCORS false --server.enableXsrfProtection false"
+        
       ]
     }
   },
