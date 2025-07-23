@@ -21,7 +21,7 @@
     "RandomForest": {
       "best_params": {
         "regressor__max_depth": null,
-        "regressor__max_features": 0.8,
+        "regressor__max_features": 0.8, null,
         "regressor__min_samples_leaf": 5,
         "regressor__min_samples_split": 10,
         "regressor__n_estimators": 100
