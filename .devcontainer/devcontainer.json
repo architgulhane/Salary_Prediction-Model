@@ -13,6 +13,7 @@
       "extensions": [
         "ms-python.python",
         "ms-python.vscode-pylance"
+                  "vscode": "streamlit run app.py --server.enableCORS false --server.enableXsrfProtection false"
       ]
     }
   },
@@ -24,7 +25,6 @@
     "8501": {
       "label": "Application",
       "onAutoForward": "openPreview"
-          "server": "streamlit run app.py --server.enableCORS false --server.enableXsrfProtection false"
     }
   },
   "forwardPorts": [
