@@ -1,0 +1,25 @@
+import matplotlib.pyplot as plt
+plt.boxplot(data['age'])
+
+{'whiskers': [<matplotlib.lines.Line2D at 0x184ad1659d0>,
+  <matplotlib.lines.Line2D at 0x184ad167ce0>],
+ 'caps': [<matplotlib.lines.Line2D at 0x184ad1649e0>,
+  <matplotlib.lines.Line2D at 0x184ad164dd0>],
+ 'boxes': [<matplotlib.lines.Line2D at 0x184ad167bf0>],
+ 'medians': [<matplotlib.lines.Line2D at 0x184ad167e60>],
+ 'fliers': [<matplotlib.lines.Line2D at 0x184ad164200>],
+ 'means': []}
+ <Figure size 640x480 with 1 Axes>
+
+ plt.boxplot(data['age'])
+{'whiskers': [<matplotlib.lines.Line2D at 0x184ad201160>,
+  <matplotlib.lines.Line2D at 0x184ad203c80>],
+ 'caps': [<matplotlib.lines.Line2D at 0x184ad201610>,
+  <matplotlib.lines.Line2D at 0x184ad201a60>],
+ 'boxes': [<matplotlib.lines.Line2D at 0x184ad201100>],
+ 'medians': [<matplotlib.lines.Line2D at 0x184ad200b00>],
+ 'fliers': [<matplotlib.lines.Line2D at 0x184ad200860>],
+ 'means': []}
+ <Figure size 640x480 with 1 Axes>
+
+ 
