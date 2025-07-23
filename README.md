@@ -1,4 +1,4 @@
-# Salary Prediction
+# Salary Prediction:
 
 <div align="center">
   <h3>🚀 AI-Powered Salary Insights for the Modern Workforce</h3>
