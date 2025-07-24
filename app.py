@@ -295,7 +295,7 @@ st.markdown("""
     }
     
     .info-alert::before {
-        content: '💡';
+        content: '-';
         position: absolute;
         top: 1rem;
         left: 1rem;
