@@ -15,7 +15,6 @@ import io
 import base64
 warnings.filterwarnings('ignore')
 
-# Configure page
 st.set_page_config(
     page_title="💰 AI Salary Predictor",
     page_icon="💰",
