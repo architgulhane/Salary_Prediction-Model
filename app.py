@@ -652,7 +652,7 @@ class SalaryPredictionApp:
             req = job_requirements[job_title]
             warnings = []
             
-            # Blocked education check (unrealistic combinations)
+           
             if education_level in req.get('blocked_education', []):
                 return False, f"❌ {job_title} cannot be achieved with {education_level} education. Minimum required: {', '.join(req['min_education'])}"
             
