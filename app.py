@@ -627,7 +627,8 @@ class SalaryPredictionApp:
             },
             'Consultant': {
                 'min_education': ["Bachelor's", "Master's", "PhD"],
-                'min_experience': 3,  # Consultants need expertise to advise others
+                'min_experience': 3,
+                
                 'typical_age_range': (25, 60),
                 'preferred_education': ["Master's"],
                 'blocked_education': ["High School"]
