@@ -644,7 +644,7 @@ class SalaryPredictionApp:
                 'min_experience': 0,
                 'typical_age_range': (22, 60),
                 'preferred_education': ["Bachelor's"],
-                'blocked_education': ["High School"]  # Analysis requires formal education
+                'blocked_education': ["High School"]  
             }
         }
         
