@@ -555,8 +555,7 @@ class SalaryPredictionApp:
         # Fresh graduate check
         if age >= 22 and age <= 25 and experience == 0:
             return True, f"⚠️ Fresh graduate? Consider internships or part-time work experience"
-        
-        # Mid-career with low experience
+
         if age > 40 and experience < 8:
             return True, f"⚠️ Career change or re-entry? Consider highlighting transferable skills"
         
