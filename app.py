@@ -618,7 +618,7 @@ class SalaryPredictionApp:
             },
             'Director': {
                 'min_education': ["Bachelor's", "Master's", "PhD"],
-                'min_experience': 12,  # Director is very senior position
+                'min_experience': 12,  
                 'typical_age_range': (35, 65),
                 'preferred_education': ["Master's", "PhD"],
                 'blocked_education': ["High School"]
