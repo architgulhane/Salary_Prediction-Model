@@ -558,8 +558,7 @@ class SalaryPredictionApp:
 
         if age > 40 and experience < 8:
             return True, f"⚠️ Career change or re-entry? Consider highlighting transferable skills"
-        
-        # Very experienced person
+
         if experience > 35:
             return True, f"⚠️ {experience} years is exceptional experience - ensure this is accurate"
         
