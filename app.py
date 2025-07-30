@@ -552,7 +552,7 @@ class SalaryPredictionApp:
         if age < 22 and experience > 4:  # More realistic for young people
             return False, f"❌ At age {age}, having {experience} years of experience seems unrealistic"
         
-        # Fresh graduate check
+    
         if age >= 22 and age <= 25 and experience == 0:
             return True, f"⚠️ Fresh graduate? Consider internships or part-time work experience"
 
